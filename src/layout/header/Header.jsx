@@ -1,7 +1,8 @@
 import Navbar from "../../layout/header/Navbar";
 import SocialIcons from "../../components/SocialIcons";
 import logo from "../../assets/react.svg";
-import "../../styles/header/header.css"; // Asegúrate de tener este archivo CSS
+import "../../styles/header/header.css";
+import CartWidget from "../../components/CartWidget";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         <img src={logo} alt="Logo" className="logo" />
         <Navbar />
         <SocialIcons />
-        {/* <CartWidget /> */}
+        <CartWidget />
       </div>
     </header>
   );

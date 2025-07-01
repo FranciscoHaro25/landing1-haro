@@ -37,3 +37,23 @@
   color: #333;
   font-size: 1.2rem;
 }
+
+.social-icons a svg {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover svg {
+  transform: scale(1.2);
+  color: #0077ff;
+}
+
+.cart-icon {
+  font-size: 28px;
+  color: #ff6600;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cart-icon:hover {
+  transform: scale(1.2);
+}

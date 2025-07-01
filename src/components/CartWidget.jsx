@@ -1,10 +1,9 @@
-// import { IoCart } from "react-icons/io5";
+import { IoCart } from "react-icons/io5";
 
 const CartWidget = () => {
   return (
-    <div>
-      <IoCart />
-      <h2>Burbuja</h2>
+    <div className="cart-widget">
+      <IoCart className="cart-icon" />
     </div>
   );
 };
