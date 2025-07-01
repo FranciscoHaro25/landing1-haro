@@ -1,17 +1,11 @@
-function App() {
-  let nombre = "Francisco";
-  const saludar = () => {
-    console.log("Hola, " + nombre);
-  };
+import Header from "./layout/Header";
 
+function App() {
   return (
-    <>
-      <div>
-        <h2>Mi primera App React</h2>
-        <h4>Mi nombre es: {saludar}</h4>
-        <button onClick={saludar}>Saludar</button>
-      </div>
-    </>
+    <div>
+      <Header />
+      <h1 style={{ color: "red" }}>Hola mundo desde App.jsx</h1>
+    </div>
   );
 }
 
