@@ -3,6 +3,7 @@ function App() {
   const saludar = () => {
     console.log("Hola, " + nombre);
   };
+
   return (
     <>
       <div>
