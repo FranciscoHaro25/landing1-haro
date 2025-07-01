@@ -6,7 +6,6 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-brand">
           <h2>Mi Tienda</h2>
-          <p>&copy; {new Date().getFullYear()} Todos los derechos reservados</p>
         </div>
 
         <div className="footer-links">
@@ -26,6 +25,9 @@ const Footer = () => {
             Instagram
           </a>
         </div>
+      </div>
+      <div className="footer-copy">
+        <p>&copy; {new Date().getFullYear()} Todos los derechos reservados</p>
       </div>
     </footer>
   );
