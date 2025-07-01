@@ -1,13 +1,9 @@
 import { Link } from "react-router-dom";
-import { IoCart } from "react-icons/io5";
-import "../styles/header.css";
+import "../../styles/header/header.css"; // Asegúrate de tener este archivo CSS
 
 const Navbar = () => {
   return (
     <>
-      <h2>Mi primera app</h2>
-      <IoCart />
-
       <nav className="navbar">
         <ul>
           <li>

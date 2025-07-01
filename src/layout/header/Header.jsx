@@ -1,7 +1,7 @@
-import Navbar from "../layout/Navbar";
-import SocialIcons from "../components/SocialIcons";
-import logo from "../assets/react.svg"; // tu logo
-import "../styles/header.css";
+import Navbar from "../../layout/header/Navbar";
+import SocialIcons from "../../components/SocialIcons";
+import logo from "../../assets/react.svg";
+import "../../styles/header/header.css"; // Asegúrate de tener este archivo CSS
 
 const Header = () => {
   return (
@@ -10,6 +10,7 @@ const Header = () => {
         <img src={logo} alt="Logo" className="logo" />
         <Navbar />
         <SocialIcons />
+        {/* <CartWidget /> */}
       </div>
     </header>
   );

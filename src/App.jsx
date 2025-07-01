@@ -1,10 +1,9 @@
-import Header from "./layout/Header";
+import Header from "./layout/header/Header";
 
 function App() {
   return (
     <div>
-      <Header />
-      <h1 style={{ color: "red" }}>Hola mundo desde App.jsx</h1>
+      <Header />;
     </div>
   );
 }
