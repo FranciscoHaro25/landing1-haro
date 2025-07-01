@@ -1,0 +1,58 @@
+/* Navbar base */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+nav h1 {
+  font-size: 1.8rem;
+  color: #1a202c;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Enlaces */
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+  color: #0077ff;
+}
+
+nav ul li::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #0077ff;
+  width: 0;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
